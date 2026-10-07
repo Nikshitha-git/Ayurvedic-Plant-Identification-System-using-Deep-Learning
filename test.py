@@ -5,5 +5,5 @@ from detector import detect_leaf
 # print(model.names)
 
 
-result = detect_leaf("C:/Users/NiVa/Desktop/Ayurvedic-Plant-Identifier/plant-leaf-app/bananana.jpg")
+result = detect_leaf("bananana.jpg")
 print(result)
