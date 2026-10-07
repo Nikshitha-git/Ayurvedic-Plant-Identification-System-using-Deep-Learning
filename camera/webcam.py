@@ -14,7 +14,7 @@ while True:
         cv2.imwrite("capture.jpg", frame)
 
         response = requests.post(
-            "http://xyz.zz.zz.z:5000/predict",     #your IPv4 address
+            "http://<.........>:5000/predict",    #<your IPv4 address>
             files={"image": open("capture.jpg", "rb")}
         )
 
