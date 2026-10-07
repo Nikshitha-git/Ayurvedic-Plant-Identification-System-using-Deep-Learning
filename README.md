@@ -1,5 +1,5 @@
 # Ayurvedic-Plant-Identification-System-using-DeepLearning
-<<<<<<< HEAD
+
 # 🌿 AyurLeaf — Ayurvedic Plant Identification & Medicinal Knowledge System
 
 > **Recognize a plant. Discover its Ayurvedic wisdom.**
@@ -77,7 +77,7 @@ Plant information and Ayurvedic knowledge are stored and retrieved using **Mongo
 The landing page introduces AyurLeaf and provides users with an intuitive entry point to begin plant identification.
 
 <p align="center">
-  <img src="images/landing-page.png" width="850">
+  <img src="images/landing-page.png" width="420">
 </p>
 
 ---
@@ -92,15 +92,7 @@ Users can capture a leaf directly using their device camera or upload an existin
 
 ---
 
-## 🔬 AI-Based Plant Detection
-
 The uploaded leaf image is processed by the trained YOLO model to identify the most probable plant.
-
-<p align="center">
-  <img src="images/Prediction-page.png" width="850">
-</p>
-
----
 
 ## 🌿 Plant Identification Result
 
@@ -117,7 +109,7 @@ Once the prediction is complete, AyurLeaf presents the recognized plant together
 The system provides the Ayurvedic characteristics of the identified plant, including **Rasa, Guna, Virya, and Vipaka**.
 
 <p align="center">
-  <img src="images/More_Info.png" width="850">
+  <img src="images/Ayur.png" width="420">
 </p>
 
 ---
