@@ -24,7 +24,7 @@ function scanLeaf() {
   formData.append("image", file);
 
   //change the URL to your backend endpoint
-   fetch("http://192.168.1.5:5000/predict", //your ipv4 address
+   fetch("http://<...........>:5000/predict", //<your ipv4 address>
    {
      method: "POST",
     body: formData
