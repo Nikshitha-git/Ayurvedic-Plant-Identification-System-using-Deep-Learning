@@ -418,30 +418,6 @@ The application will be available through the local Flask server.
 
 ---
 
-# 🔐 Security Note
-
-For public deployment, sensitive configuration values such as:
-
-* MongoDB credentials
-* Database connection strings
-* API keys
-* Secret keys
-
-should **not** be committed to GitHub.
-
-Use a `.env` file and add it to `.gitignore`.
-
-Example:
-
-```text
-.env
-venv/
-__pycache__/
-*.pyc
-```
-
----
-
 # 🚀 Future Enhancements
 
 AyurLeaf can be further developed into a more comprehensive digital platform for medicinal plant recognition.
@@ -492,33 +468,19 @@ AyurLeaf can potentially be useful in:
 
 ---
 
-# 👩‍💻 Project Information
+## 📄 Research Publication
 
-**Project:** AyurLeaf — Ayurvedic Plant Identification & Medicinal Knowledge System
+This project was further developed and documented as a research work.
 
-**Domain:** Artificial Intelligence & Machine Learning
+Title: Ayurvedic Plant Identification System using Deep Learning Based Image Processing
 
-**Technologies:** Python, Flask, YOLO, MongoDB, HTML, CSS, JavaScript
-
-**Project Type:** Major Academic Project
-
----
-
-# 👩‍💻 Developed By
-
-**Nikshitha Varkala**
-
-B.Tech — Computer Science and Engineering
-
-KMIT, Hyderabad
-
----
-
-# ⭐ Acknowledgements
-
-This project was developed as an academic initiative to explore the application of **Artificial Intelligence and Computer Vision in the identification of medicinal plants**, while presenting associated traditional Ayurvedic knowledge through a user-friendly digital platform.
-
----
+View Here : https://www.ijert.org/ayurvedic-plant-identification-system-using-deep-learning-based-image-processing-ijertv15is040594
+Publication : International Journal of Engineering Research & Technology (IJERT) An International Peer-Reviewed Journal 
+Vol. 15 Issue 04 , April - 2026
+ISSN (Online) 2278-0181
+IJERTV15IS040594 
+DOI : 10.5281/zenodo.19760681
+View Published Paper : https://www.ijert.org/research/ayurvedic-plant-identification-system-using-deep-learning-based-image-processing-IJERTV15IS040594.pdf
 
 ## 🌿 Bringing Artificial Intelligence Closer to Nature
 
@@ -526,5 +488,4 @@ This project was developed as an academic initiative to explore the application 
 
 ⭐ If you find this project interesting, consider giving the repository a star!
 =======
-# Ayurvedic-Plant-Identification-System-using-DeepLearning
->>>>>>> ca39b3a0193fe6e2ea0c8106b9ca9bf2d4014530
+
