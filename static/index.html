@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Ayurvedic Plant Identifier</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>🌿 AyurLeaf</h1>
+    <p class="subtitle">
+      Where ancient Ayurvedic wisdom meets nature’s living leaves.<br>
+      Capture a leaf and discover its healing essence.
+    </p>
+
+    <div class="card intro-card">
+      <p>
+        Ayurveda teaches us that healing begins with balance —
+        between the body, the mind, and nature.
+        <br><br>
+        Every leaf carries ancient intelligence.
+        This application helps you recognize medicinal plants
+        and understand their Ayurvedic properties with awareness and respect.
+      </p>
+    </div>
+
+
+
+    <!-- PHONE CAMERA INPUT -->
+    <!-- <input type="file" id="imageInput" accept="image/*" capture="environment" onchange="scanLeaf()" /> -->
+    <label class="upload-label">
+      📷 Capture Leaf
+      <input type="file" id="imageInput" accept="image/*" capture="environment" onchange="scanLeaf()" hidden />
+    </label>
+
+    <!-- IMAGE PREVIEW -->
+    <div id="previewContainer" class="hidden">
+      <img id="previewImage" alt="Captured leaf" />
+      <p class="preview-text">Captured leaf for analysis</p>
+    </div>
+
+
+
+    <!-- LOADER -->
+    <div id="loader" class="hidden"></div>
+
+    <!-- RESULT -->
+    <div id="result" class="hidden">
+      <h2 id="plantName"></h2>
+      <div class="icon-row">
+        <span>🌿</span>
+        <span>🍃</span>
+        <span>🪴</span>
+      </div>
+      <p id="confidence"></p>
+
+      <div class="card">
+        <h3>🌿 Botanical Identity</h3>
+
+        <p id="scientificName"></p>
+      </div>
+
+      <div class="card">
+        <h3>🧘 Ayurvedic Nature</h3>
+
+        <p><strong>Rasa:</strong> <span id="rasa"></span></p>
+        <p><strong>Guna:</strong> <span id="guna"></span></p>
+        <p><strong>Virya:</strong> <span id="virya"></span></p>
+        <p><strong>Vipaka:</strong> <span id="vipaka"></span></p>
+      </div>
+
+      <div class="card">
+        <h3>💚 Traditional Healing Uses</h3>
+
+        <ul id="uses"></ul>
+      </div>
+    </div>
+    <div class="card fact-card">
+      <h3>🌼 Did You Know?</h3>
+      <p id="ayurvedaFact"></p>
+    </div>
+    <div class="card">
+      <p style="font-size: 0.8rem; text-align: center; color: #6b7d6b;">
+        🌱 This information is for learning and awareness.<br>
+        Please consult an Ayurvedic practitioner before medicinal use.
+      </p>
+    </div>
+    <!-- <div class="card fact-card">
+      <h3>🌼 Did You Know?</h3>
+      <p id="ayurvedaFact"></p>
+    </div> -->
+
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+
+</html>

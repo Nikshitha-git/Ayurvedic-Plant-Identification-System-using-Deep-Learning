@@ -1,0 +1,25 @@
+AyurLeaf is an AI-powered Ayurvedic plant identification system that combines Computer Vision,
+Deep Learning, Flask, MongoDB, and a responsive web interface to identify medicinal plants from leaf images 
+and provide their corresponding Ayurvedic and medicinal information.
+
+The system allows users to capture or upload a leaf image,
+analyze it using a trained YOLO-based object detection model, 
+and instantly receive the predicted plant name along with its scientific name, 
+Ayurvedic properties, medicinal uses, and traditional knowledge.
+
+## 📄 Research Publication & Conference Presentation
+
+This project was developed as part of our undergraduate Final Year MAJOR PROJECT
+and was further documented as a research paper.
+
+Research Paper
+
+Title: Ayurvedic Plant Identification System using Deep Learning Based Image Processing
+
+View Here : https://www.ijert.org/ayurvedic-plant-identification-system-using-deep-learning-based-image-processing-ijertv15is040594
+Publication : International Journal of Engineering Research & Technology (IJERT) An International Peer-Reviewed Journal 
+Vol. 15 Issue 04 , April - 2026
+ISSN (Online) 2278-0181
+IJERTV15IS040594 
+DOI : 10.5281/zenodo.19760681
+View Published Paper : https://www.ijert.org/research/ayurvedic-plant-identification-system-using-deep-learning-based-image-processing-IJERTV15IS040594.pdf
