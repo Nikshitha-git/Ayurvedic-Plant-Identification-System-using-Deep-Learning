@@ -99,7 +99,7 @@ The uploaded leaf image is processed by the trained YOLO model to identify the m
 Once the prediction is complete, AyurLeaf presents the recognized plant together with its confidence score and scientific information.
 
 <p align="center">
-  <img src="images/Scientific.png" width="420">
+  <img src="images/Scientific-Info.png" width="420">
 </p>
 
 ---
