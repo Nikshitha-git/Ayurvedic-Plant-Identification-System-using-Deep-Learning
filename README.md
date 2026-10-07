@@ -338,40 +338,6 @@ This makes the system convenient for collecting leaf images directly in outdoor 
 
 ---
 
-# 📁 Project Structure
-
-```text
-AyurLeaf/
-│
-├── app.py
-│
-├── best.pt
-│
-├── templates/
-│   └── index.html
-│
-├── static/
-│   ├── css/
-│   ├── js/
-│   │   └── script.js
-│   └── Images/
-│
-├── Images/
-│   ├── landing_page.png
-│   ├── capture_leaf.png
-│   ├── upload_leaf.png
-│   ├── prediction.png
-│   ├── result.png
-│   ├── ayurvedic_profile.png
-│   └── medicinal_uses.png
-│
-├── requirements.txt
-│
-└── README.md
-```
-
----
-
 # ⚙️ Installation & Setup
 
 ## 1. Clone the Repository
@@ -463,9 +429,6 @@ AyurLeaf can potentially be useful in:
 * 📚 Traditional knowledge documentation
 * 🧑‍🌾 Preliminary plant identification
 * 📱 Educational mobile applications
-
-> **Note:** AyurLeaf is intended for plant identification and educational purposes. The medicinal information presented by the system should not be treated as a substitute for professional medical or Ayurvedic advice.
-
 ---
 
 ## 📄 Research Publication
@@ -474,18 +437,15 @@ This project was further developed and documented as a research work.
 
 Title: Ayurvedic Plant Identification System using Deep Learning Based Image Processing
 
-View Here : https://www.ijert.org/ayurvedic-plant-identification-system-using-deep-learning-based-image-processing-ijertv15is040594
 Publication : International Journal of Engineering Research & Technology (IJERT) An International Peer-Reviewed Journal 
 Vol. 15 Issue 04 , April - 2026
-ISSN (Online) 2278-0181
-IJERTV15IS040594 
+ISSN (Online) 2278-0181  IJERTV15IS040594 
+
 DOI : 10.5281/zenodo.19760681
 View Published Paper : https://www.ijert.org/research/ayurvedic-plant-identification-system-using-deep-learning-based-image-processing-IJERTV15IS040594.pdf
 
 ## 🌿 Bringing Artificial Intelligence Closer to Nature
 
-**AyurLeaf connects modern Computer Vision with the timeless knowledge of Ayurveda — making plant identification simpler, faster, and more accessible.**
+> **Note:** AyurLeaf is intended for plant identification and educational purposes. The medicinal information presented by the system should not be treated as a substitute for professional medical or Ayurvedic advice.
 
 ⭐ If you find this project interesting, consider giving the repository a star!
-=======
-
