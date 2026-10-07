@@ -99,7 +99,7 @@ The uploaded leaf image is processed by the trained YOLO model to identify the m
 Once the prediction is complete, AyurLeaf presents the recognized plant together with its confidence score and scientific information.
 
 <p align="center">
-  <img src="images/Ayurvedic-Info.png" width="850">
+  <img src="images/Scientific.png" width="420">
 </p>
 
 ---
@@ -119,7 +119,7 @@ The system provides the Ayurvedic characteristics of the identified plant, inclu
 Users can explore the documented medicinal uses and additional Ayurvedic knowledge associated with the recognized plant.
 
 <p align="center">
-  <img src="images\More-Info.png" width="850">
+  <img src="images\More-Info.png" width="420">
 </p>
 
 ---
